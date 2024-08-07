@@ -96,6 +96,7 @@ public class Main {
 
     /**
      * 树形dp，dfs记忆化搜索
+     * （掌握）根据给定节点和边的编号构建树的邻接表
      * @param args
      */
     public static void main(String[] args) {
