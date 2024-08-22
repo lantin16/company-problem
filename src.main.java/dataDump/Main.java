@@ -45,9 +45,12 @@ public class Main {
         }
 
         // 输出结果
-        for (String s : list) {
-            System.out.print(s + cntMp.get(s) + " ");
+        for (int j = 0; j < list.size(); j++) {
+            System.out.print(list.get(j) + cntMp.get(list.get(j)));
+            if (j != list.size() - 1) { // 注意最后一个后面不要有空格和换行符
+                System.out.print(" ");
+            }
         }
-
+        System.out.println();
     }
 }
